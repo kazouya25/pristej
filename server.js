@@ -220,10 +220,9 @@ client.on("message", message => {
   var spl = message.content.split(" ");
   if (spl[0] == "phelp") {
     let embed = new Discord.RichEmbed()
-      .setColor("#4ca74c")
+      .setColor("#b9f2ff")
       .addField(
-        `pristej Bot v1.0.0  Help includes a system that allows bot glitch sites to remain open 24/7. Connections in the system work 24/7 without maintenance  .`
-      )
+        `pristej Bot v1.0.0  Help includes a system that allows bot glitch sites to remain open 24/7. Connections in the system work 24/7 without maintenance  .`)
       .addField(
         `General Commands`,
         `
@@ -231,8 +230,7 @@ client.on("message", message => {
 \`phelp\` - Shows the help menu.
 \`padd\` - Adds your specified link to the system.
 \`psay\` - Shows Bots in the System.
-\`pstats\` - Shows Bots ping-servers-users-chanels
-\
+\`pstats\` - Shows Bots **ping-servers-users-chanels**
 `
       )
       .addField(
@@ -242,12 +240,12 @@ client.on("message", message => {
 [Support Server](https://discord.gg/MUQQyh6)`
       )
       .setThumbnail(client.user.avatarURL)
-      .setAuthor(`pristej`, client.user.avatarURL)
+      .setAuthor(`pristejbot`, client.user.avatarURL)
       .setFooter(`pristej Bot v1.0.0 Release`, client.user.avatarURL);
     return message.channel.send(embed);
   }
 });
-
+/*
 client.on("message", message => {
   if (message.channel.type == "dm") {
     let embed = new Discord.RichEmbed()
@@ -268,7 +266,7 @@ client.on("message", message => {
     client.channels.get("752378255075573780").send(embed);
   }
 });
-
+*/
 ////////////////////
 ////////////////////////
 

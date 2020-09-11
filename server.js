@@ -150,7 +150,7 @@ client.on("ready", () => {
 
 client.on("ready", () => {
   client.user.setActivity(
-    ` ${db.get("links").length} Bot / ${client.guilds.size} servers "`
+    ` ${db.get("links").length} Bot / ${client.guilds.size} servers `
   );
   console.log(`entered`);
 });

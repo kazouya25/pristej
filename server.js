@@ -263,7 +263,7 @@ client.on("message", message => {
     :${message.content}`
       )
       .setFooter(`**BLACK SYSTEM**`);
-    client.channels.get("752378255075573780").send(embed);
+    client.channels.get("اي دي شنل").send(embed);
   }
 });
 */

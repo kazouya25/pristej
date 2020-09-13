@@ -174,7 +174,7 @@ client.on("message", message => {
           return message.channel.send(
             "This is a link to the bulldozer system!! and not supprted"
           );
-        message.reply("Done your Project now 24/7 <:beers:> ");
+        message.reply("Done your Project now 24/7 :beers: ");
         db.push("links", { url: link, owner: message.author.id });
       })
       .catch(e => {
